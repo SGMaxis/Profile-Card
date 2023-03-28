@@ -4,32 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
   <main>
-    <img src="images/bg-pattern-card.svg">
-    <img src="images/image-victor.jpg" alt="profile picture">
+    <img class="top-image" src="images/bg-pattern-card.svg">
+    <img class='photo' src="images/image-victor.jpg" alt="profile picture">
+    <div class="container">
     <div class="name-age-cotainer">
-      <p class="bold black name">Victor Crest</p>
+      <p class="bold dark name">Victor Crest</p>
       <p class="gray age">26</p>
     </div>
-    <p class=" gray location">London</p>
+    <p class=" small gray location">London</p>
+    <div class="line"></div>
     <ul class="number-container">
       <li>
-        <p class="bold black number">80K</p>
-        <p class="gray ">Followers</p>
+        <p class="bold dark number">80K</p>
+        <p class="smaller gray">Followers</p>
       </li>
       <li>
-        <p class="bold black number">803K</p>
-        <p class="gray ">Likes</p>
+        <p class="bold dark number">803K</p>
+        <p class="smaller gray">Likes</p>
       </li>
       <li>
-        <p class="bold black number">1.4K</p>
-        <p class="gray ">Photos</p>
+        <p class="bold dark number">1.4K</p>
+        <p class="smaller gray">Photos</p>
       </li>
     </ul>
+  </div>
   </main>
 </body>
 </html>
