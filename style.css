@@ -92,6 +92,10 @@ main::after{
     border: 5px solid white;
 }
 
+h1{
+    font-size: var(--font-size-bigger);
+}
+
 .name-age-cotainer{
     display: flex;
     gap: 10px;
