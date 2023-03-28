@@ -94,6 +94,7 @@ main::after{
 
 h1{
     font-size: var(--font-size-bigger);
+    font-weight: 700;
 }
 
 .name-age-cotainer{
